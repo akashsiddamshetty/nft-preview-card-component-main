@@ -1,0 +1,90 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  top: 98%;
+  left: 38%;
+  position: absolute;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+.card {
+  background-color: $darkblue;
+  height: 37.25rem;
+  width: 21.875rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    img {
+      height: 18.875rem;
+      width: 19rem;
+      border-radius: 15px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7 !important;
+        filter: alpha(opacity=70) !important; /* For IE8 and earlier */
+        box-shadow: 0 0 0px $Cyan !important;
+      }
+    }
+    h3 {
+      color: $White;
+      cursor: pointer;
+      &:hover {
+        color: $Cyan;
+      }
+    }
+    p {
+      margin: 0;
+      color: $Softblue;
+    }
+    &-details {
+      display: flex;
+      justify-content: space-between;
+      width: 18.75rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      h4 {
+        margin: 0;
+        font-weight: 100;
+        color: $Cyan;
+      }
+    }
+
+    &-line {
+      height: 0.0625rem;
+      width: 18.75rem;
+      background-color: $lightkblue;
+    }
+
+    &-avatar {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      img {
+        height: 2.0625rem;
+        width: 2.0625rem;
+      }
+      p {
+        margin-left: 1.0625rem;
+      }
+      h4 {
+        color: $White;
+        font-weight: 100;
+        margin: 0px;
+        padding-left: 0.25rem;
+        cursor: pointer;
+        &:hover {
+          color: $Cyan;
+        }
+      }
+    }
+  }
+}

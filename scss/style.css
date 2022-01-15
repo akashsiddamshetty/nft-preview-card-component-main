@@ -1,0 +1,130 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  top: 98%;
+  left: 38%;
+  position: absolute;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.card {
+  background-color: #14253d;
+  height: 37.25rem;
+  width: 21.875rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.card-container img {
+  height: 18.875rem;
+  width: 19rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-container img:hover {
+  opacity: 0.7 !important;
+  filter: alpha(opacity=70) !important;
+  /* For IE8 and earlier */
+  -webkit-box-shadow: 0 0 0px #00fff7 !important;
+          box-shadow: 0 0 0px #00fff7 !important;
+}
+
+.card-container h3 {
+  color: white;
+  cursor: pointer;
+}
+
+.card-container h3:hover {
+  color: #00fff7;
+}
+
+.card-container p {
+  margin: 0;
+  color: #8bacda;
+}
+
+.card-container-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 18.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-container-details h4 {
+  margin: 0;
+  font-weight: 100;
+  color: #00fff7;
+}
+
+.card-container-line {
+  height: 0.0625rem;
+  width: 18.75rem;
+  background-color: #2f415b;
+}
+
+.card-container-avatar {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-container-avatar img {
+  height: 2.0625rem;
+  width: 2.0625rem;
+}
+
+.card-container-avatar p {
+  margin-left: 1.0625rem;
+}
+
+.card-container-avatar h4 {
+  color: white;
+  font-weight: 100;
+  margin: 0px;
+  padding-left: 0.25rem;
+  cursor: pointer;
+}
+
+.card-container-avatar h4:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=style.css.map */
