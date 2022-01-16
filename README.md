@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [akash siddamshetty](https://www.frontendmentor.io/profile/akashsiddamshetty)
-- Twitter - [akash siddamshetty](https://twitter.com/4k4_s_h)
+- Frontend Mentor - [Akash Siddamshetty](https://www.frontendmentor.io/profile/akashsiddamshetty)
+- Twitter - [Akash Siddamshetty](https://twitter.com/4k4_s_h)
