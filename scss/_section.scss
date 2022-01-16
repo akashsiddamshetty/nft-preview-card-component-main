@@ -22,7 +22,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 15px;
-  box-shadow: 0 24px 70px 10px;
+  box-shadow: 0 24px 70px 0px;
   &-container {
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@
       p {
         margin-left: 1.0625rem;
       }
-      h4 {
+      span {
         color: $White;
         font-weight: 100;
         margin: 0px;
