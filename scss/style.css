@@ -98,12 +98,12 @@ body {
   visibility: visible;
 }
 
-.card-container h3 {
+.card-container h2 {
   color: white;
   cursor: pointer;
 }
 
-.card-container h3:hover {
+.card-container h2:hover {
   color: #00fff7;
 }
 
